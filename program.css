@@ -1,0 +1,199 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header and navigation bar styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav .head-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav .nav-links {
+    display: flex;
+    margin-right: 300px;
+    gap: 20px;
+}
+
+nav .auth-links {
+    display: flex;
+    margin-left: auto;
+    gap: 15px;
+}
+
+/* Tambahkan jarak margin jika diperlukan */
+nav ul .auth-links li {
+    margin-left: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav ul li:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Exclude the logo from hover effects */
+nav ul li:first-child {
+    pointer-events: none;
+}
+
+/* Logo styling */
+nav ul li:first-child h1 {
+    margin: 0;
+    color: #fff;
+}
+
+/* Login button styling */
+nav ul li.login {
+    margin-left: auto;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav ul li.login:hover {
+    background-color: #0056b3;
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.program-info {
+    margin-bottom: 40px;
+}
+
+.program-info h2 {
+    color: #333;
+}
+
+.program-info p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Program choices section */
+.pilih-program {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 15px;
+    justify-content: center;
+    scrollbar-width: thin;
+    scrollbar-color: #007BFF #f4f4f4;
+}
+
+.pilih-program::-webkit-scrollbar {
+    height: 8px;
+}
+
+.pilih-program::-webkit-scrollbar-thumb {
+    background-color: #007BFF;
+    border-radius: 4px;
+}
+
+.pilih-program::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+}
+
+.Pilihan-program {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    min-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.Pilihan-program h1 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.Pilihan-program img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.Pilihan-program p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.Pilihan-program a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.Pilihan-program a:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .pilih-program {
+        flex-direction: row;
+        overflow-x: auto;
+    }
+
+    .Pilihan-program {
+        min-width: 250px;
+    }
+}
+
+footer{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    margin-left: -5px;
+    padding: 20px;
+    position: absolute;
+}
+
+.footer-dec{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0px;
+}
