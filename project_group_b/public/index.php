@@ -1,5 +1,5 @@
   <?php include('page/navbar.php'); ?>
-    
+
   <header class="hero-section">
   <div class="hero-content">
     <h1>Siap Kerja lewat Project Based Internship</h1>
@@ -204,7 +204,7 @@
   <h2 class="faq-title">Apakah terdapat grup diskusi seperti WhatsApp, Discord atau media sosial lainnya?</h2>
   <p class="faq-answer">Untuk memudahkan komunikasi, diskusi dan hubungan yang terjalin baik, kami akan menyediakan grup Discord atau WhatsApp untuk setiap program yang dipilih.</p>
 </section>
- 
+
 
     <?php include('page/footer.php'); ?>
     
