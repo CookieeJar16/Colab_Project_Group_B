@@ -1,0 +1,200 @@
+/* Reset margin dan padding */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Media Queries untuk Responsif */
+
+/* Untuk layar kecil hingga tablet */
+@media (max-width: 1024px) {
+  /* Navbar */
+  .nav-menu {
+      padding-right: 100px;
+  }
+
+  /* Hero section */
+  .hero-section {
+      padding: 100px 20px;
+  }
+
+  .hero-content h1 {
+      font-size: 2.2rem; /* Menyesuaikan ukuran font */
+  }
+
+  .hero-content h2 {
+      font-size: 1.6rem;
+  }
+
+  .hero-content p {
+      font-size: 1rem;
+  }
+
+  /* Benefits section */
+  .benefits-container {
+      grid-template-columns: 1fr; /* Ganti menjadi satu kolom */
+  }
+
+  /* Programs section */
+  .programs-container {
+      grid-template-columns: 1fr; /* Ganti menjadi satu kolom */
+  }
+
+  .program-item {
+      padding: 15px;
+  }
+
+  /* Alumni section */
+  .alumni-container {
+      grid-template-columns: 1fr 1fr; /* 2 kolom pada layar lebih kecil */
+  }
+
+  /* Video Alumni section */
+  .video-alumni-container {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  /* Footer */
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-left, .footer-center, .footer-right {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .footer-logo {
+      max-height: 60px; /* Menyesuaikan ukuran logo */
+  }
+}
+
+/* Untuk layar kecil (mobile) */
+@media (max-width: 768px) {
+  /* Navbar */
+  .nav-menu {
+      flex-direction: column;
+      gap: 10px;
+      padding-right: 0;
+  }
+
+  /* Hero Section */
+  .hero-section {
+      padding: 80px 20px;
+  }
+
+  .hero-content h1 {
+      font-size: 2rem;
+  }
+
+  .hero-content h2 {
+      font-size: 1.4rem;
+  }
+
+  .hero-content p {
+      font-size: 0.9rem;
+  }
+
+  /* Benefits section */
+  .benefits-container {
+      grid-template-columns: 1fr; /* Ganti menjadi satu kolom */
+  }
+
+  /* Programs section */
+  .programs-container {
+      grid-template-columns: 1fr; /* Ganti menjadi satu kolom */
+  }
+
+  /* Alumni Section */
+  .alumni-container {
+      grid-template-columns: 1fr; /* Satu kolom */
+  }
+
+  /* Footer */
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-logo {
+      max-height: 50px; /* Menyesuaikan ukuran logo */
+  }
+
+  .footer-social a {
+      font-size: 18px;
+  }
+
+  .footer-center ul, .footer-right ul {
+      padding: 0;
+      text-align: center;
+  }
+}
+
+/* Untuk perangkat yang lebih kecil seperti smartphone */
+@media (max-width: 480px) {
+  /* Navbar */
+  .nav-menu {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .nav-logo {
+      padding-left: 20px;
+      max-height: 60px;
+  }
+
+  /* Hero Section */
+  .hero-section {
+      padding: 60px 10px;
+  }
+
+  .hero-content h1 {
+      font-size: 1.8rem;
+  }
+
+  .hero-content h2 {
+      font-size: 1.2rem;
+  }
+
+  .hero-content p {
+      font-size: 0.85rem;
+  }
+
+  /* Benefits Section */
+  .benefits-container {
+      grid-template-columns: 1fr; /* Ganti menjadi satu kolom */
+  }
+
+  .benefits-list li {
+      flex-direction: column; /* Mengatur item dalam list menjadi vertikal */
+      align-items: center;
+  }
+
+  /* Alumni Section */
+  .alumni-container {
+      grid-template-columns: 1fr; /* Ganti menjadi satu kolom */
+  }
+
+  .video-alumni-container {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  /* Footer */
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-logo {
+      max-height: 40px; /* Menyesuaikan ukuran logo */
+  }
+
+  .footer-social a {
+      font-size: 16px;
+  }
+}

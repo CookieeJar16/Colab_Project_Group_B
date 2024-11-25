@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: #333333;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.sidebar .logout-btn {
+    display: block;
+    width: 90%;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.sidebar .logout-btn:hover {
+    background-color: #d32f2f;
+}
+
+.sidebar-manage {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar-manage a {
+    display: block;
+    background-color: #444444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-manage a:hover {
+    background-color: #555555;
+}
+
+.form-tambah {
+    margin-top: 30px;
+}
+
+.form-tambah input,
+.form-tambah select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-tambah button {
+    width: 100%;
+    padding: 10px;
+    background-color: #444444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-tambah button:hover {
+    background-color: #0e49c9;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 10px;
+}
+
+table th {
+    background-color: #242424;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.edit-btn,
+.delete-btn {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #333333;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+.edit-btn:hover {
+    background-color: #333333;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.container .main-content .add-course a {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: block;
+    width: 10%;
+    padding: 10px;
+    background-color: #444444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
