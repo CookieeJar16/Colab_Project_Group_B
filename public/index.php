@@ -1,4 +1,10 @@
-  <?php include('page/navbar.php'); ?>
+  <?php 
+    include 'config/config.php';
+    include('page/navbar.php'); 
+
+    $stmt = $pdo->query("SELECT * FROM course");
+    $courses = $stmt->fetchAll();
+  ?>
 
   <header class="hero-section">
   <div class="hero-content">
@@ -106,29 +112,16 @@
   </div>
 </section>
 
-  <section id="programs" class="programs-section">
+<section id="programs" class="programs-section">
   <h2 class="programs-heading">Program Pelatihan yang Kami Tawarkan</h2>
   <div class="programs-container">
-    <div class="program-item">
-      <img src="images/ml.jfif" alt="Program 1" class="program-image">
-      <h3 class="program-title">Pelatihan Digital Marketing</h3>
-      <p class="program-description">Belajar strategi pemasaran digital mulai dari SEO, social media marketing, hingga paid ads untuk meningkatkan branding dan penjualan bisnis.</p>
-    </div>
-    <div class="program-item">
-      <img src="images/sistem.jpg" alt="Program 2" class="program-image">
-      <h3 class="program-title">Pelatihan Data Analytics</h3>
-      <p class="program-description">Pelajari cara menganalisis data dengan tools modern seperti Excel, Python, dan Tableau untuk mendukung pengambilan keputusan berbasis data.</p>
-    </div>
-    <div class="program-item">
-      <img src="images/UI.png" alt="Program 3" class="program-image">
-      <h3 class="program-title">Pelatihan UI/UX Design</h3>
-      <p class="program-description">Kuasai desain antarmuka pengguna yang menarik dan pengalaman pengguna yang optimal dengan metode desain thinking dan tools seperti Figma.</p>
-    </div>
-    <div class="program-item">
-      <img src="images/web-developer.png" alt="Program 4" class="program-image">
-      <h3 class="program-title">Pelatihan Web Development</h3>
-      <p class="program-description">Belajar membuat website modern dan responsif dengan teknologi terkini seperti HTML, CSS, JavaScript, dan framework populer seperti React.</p>
-    </div>
+    <?php foreach ($courses as $course): ?>
+      <div class="program-item">
+        <img src="uploads/<?php echo $course['gambar']; ?>" alt="Program <?php echo $program['id']; ?>" class="program-image">
+        <h3 class="program-title"><?php echo htmlspecialchars($course['judul']); ?></h3>
+        <p class="program-description"><?php echo htmlspecialchars($course['deskripsi']); ?></p>
+      </div>
+    <?php endforeach; ?>
   </div>
 </section>
 
