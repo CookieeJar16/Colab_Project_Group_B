@@ -353,6 +353,81 @@ nav {
   background-color: #45a049;
 }
 
+/* SECTION 3b */
+.section-3b {
+  padding: 60px 20px;
+  background-color: #E8FAF5;
+  text-align: center;
+}
+
+.community-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.community-title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.community-cards {
+  display: flex;
+  justify-content: center;
+  gap: 24px; /* Gap between cards */
+  flex-wrap: wrap;
+}
+
+.community-card {
+  width: 320px;
+  height: 440px;
+  border-radius: 24px;
+  padding: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  gap: 12px;
+  overflow: hidden;
+}
+
+.card-1 {
+  background-image: url('../images/left-card-img.png');
+  background-repeat:no-repeat;
+}
+
+.card-2 {
+  background-image: url('../images/middle-card-img.png');
+  background-repeat:no-repeat;
+}
+
+.card-3 {
+  background-image: url('../images/right-card-img.png');
+  background-repeat:no-repeat;
+}
+
+.card-heading {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  padding-bottom: 8px; 
+  line-height: 1.2; 
+}
+
+.card-subheading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 0; 
+  padding-top: 4px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 /* FAQ */
 
@@ -519,7 +594,6 @@ footer {
   max-height: 80px; /* Tinggi maksimum logo */
   width: auto; /* Jaga proporsi gambar */
   margin-bottom: 20px; /* Jarak bawah logo */
- 
 }
 
 .footer-left p {

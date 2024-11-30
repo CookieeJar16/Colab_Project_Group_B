@@ -204,6 +204,29 @@
     </div>
   </section>
 
+  <section class="section-3b">
+    <div class="community-container">
+      <h1 class="community-title">Mari Bergabung Bersama Komunitas Luarsekolah</h1>
+      <div class="community-cards">
+        <!-- Card 1 -->
+        <div class="community-card card-1">
+          <h2 class="card-heading">Komunitas</h2>
+          <h3 class="card-subheading">Sobat LS &gt;</h3>
+        </div>
+        <!-- Card 2 -->
+        <div class="community-card card-2">
+          <h2 class="card-heading">Komunitas</h2>
+          <h2 class="card-subheading">Alumni Belajar Bekerja &gt;</h3>
+        </div>
+        <!-- Card 3 -->
+        <div class="community-card card-3">
+          <h2 class="card-heading">Komunitas</h2>
+          <h2 class="card-subheading">Alumni Prakerja dan ISW &gt;</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <section class="faq-section">
     <div class="faq-container">
