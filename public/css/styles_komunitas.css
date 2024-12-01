@@ -148,6 +148,7 @@ nav {
   align-items: center;
   height: 15vh;
   margin: 0;
+  background-color: #F7F7F7;
 }
 
 .stats-container {
@@ -163,19 +164,13 @@ nav {
 .stat h1 {
   font-size: 2.5em;
   margin: 0;
-  color: #000;
+  color: #138E6F;
 }
 .stat p {
   font-size: 1.5em;
   margin: 0;
-  color: #000;
+  color: #138E6F;
   font-weight: 600;
-}
-.vertical-line {
-  width: 1px;
-  height: 70px;
-  background-color: #000;
-  align-self: center;
 }
 
 /* SECTION 3 */
@@ -183,6 +178,7 @@ nav {
   margin: 0;
   padding: 0;
   height: auto;
+  background-color: #E8FAF5;
 }
 
 .container {
@@ -261,6 +257,10 @@ nav {
 }
 
 /* SECTION 4 */
+.section-4{
+  background-color: #E8FAF5;
+}
+
 .star {
   font-size: 40px;
   cursor: pointer;
@@ -436,6 +436,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: auto;
+  background-color: #E8FAF5;
 }
 
 .faq-container{

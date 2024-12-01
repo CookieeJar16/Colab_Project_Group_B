@@ -74,17 +74,14 @@
           <h1>14+</h1>
           <p>Total Program</p>
       </div>
-      <div class="vertical-line"></div>
       <div class="stat">
           <h1>2000+</h1>
           <p>Total Alumni</p>
       </div>
-      <div class="vertical-line"></div>
       <div class="stat">
           <h1>180+</h1>
           <p>Hiring Partners</p>
       </div>
-      <div class="vertical-line"></div>
       <div class="stat">
           <h1>200+</h1>
           <p>Corporate Partners</p>
