@@ -206,19 +206,72 @@
       <h1 class="community-title">Mari Bergabung Bersama Komunitas Luarsekolah</h1>
       <div class="community-cards">
         <!-- Card 1 -->
-        <div class="community-card card-1">
-          <h2 class="card-heading">Komunitas</h2>
-          <h3 class="card-subheading">Sobat LS &gt;</h3>
+        <div class="community-card-wrapper">
+          <div class="community-card card-1">
+            <h3 class="card-subheading">Sobat LS</h3>
+          </div>
+          <!-- Card 1 Hover -->
+          <div class="community-card-hover card-1-hover">
+            <div class="heading-card">
+              <h2 class="card-heading">Komunitas Sobat LS</h2>
+            </div>
+            <p>Komunitas ini hadir untuk siapapun kamu yang bergabung dan dibimbing #Sampaijadibisa.</p>
+            <div class="card-content">
+              <p>Keunggulan Komunitas</p>
+              <ul>
+                <li><i class="fas fa-bullhorn"></i> Informasi mengenai kelas Luarsekolah, Prakerja, dan ISW</li>
+                <li><i class="fas fa-calendar"></i> Informasi mengenai event LuarSekolah</li>
+                <li><i class="fas fa-gift"></i> Gift away voucher kelas gratis</li>
+              </ul>
+              <button class="card-button">Gabung Sekarang</button>
+            </div>
+          </div>
         </div>
         <!-- Card 2 -->
-        <div class="community-card card-2">
-          <h2 class="card-heading">Komunitas</h2>
-          <h2 class="card-subheading">Alumni Belajar Bekerja &gt;</h3>
+        <div class="community-card-wrapper">
+          <div class="community-card card-2">
+            <h2 class="card-subheading">Alumni Belajar Bekerja</h3>
+          </div>
+          <!-- Card 2 Hover -->
+          <div class="community-card-hover card-2-hover">
+            <div class="heading-card">
+              <h2 class="card-heading">Komunitas Alumni Belajar Bekerja</h2>
+            </div>
+            <p>Komunitas ini hadir untuk kamu yang berhasil lulus program Belajar Bekerja termasuk alumni magang+.</p>
+            <div class="card-content">
+              <p>Keunggulan Komunitas</p>
+              <ul>
+                <li><i class="fas fa-images"></i> Open diskusi terkait materi/Live Session</li>
+                <li><i class="fas fa-bullhorn"></i> Informasi project magang/intern</li>
+                <li><i class="fas fa-folder-closed"></i> Pemetaan minat dan topik</li>
+                <li><i class="fas fa-satellite-dish"></i> Layanan Job Connector</li>
+                <li><i class="fas fa-briefcase"></i> Informasi Lowongan kerja sesuai program belajar</li>
+                <li><i class="fas fa-people-group"></i> Membangun koneksi antar mitra alumni</li>
+              </ul>
+              <button class="card-button">Gabung Sekarang</button>
+            </div>
+          </div>
         </div>
         <!-- Card 3 -->
-        <div class="community-card card-3">
-          <h2 class="card-heading">Komunitas</h2>
-          <h2 class="card-subheading">Alumni Prakerja dan ISW &gt;</h3>
+        <div class="community-card-wrapper">
+          <div class="community-card card-3">
+            <h2 class="card-subheading">Alumni Prakerja dan ISW</h3>
+          </div>
+          <!-- Card 3 Hover -->
+          <div class="community-card-hover card-3-hover">
+            <div class="heading-card">
+              <h2 class="card-heading">Komunitas Alumni Prakerja dan ISW</h2>
+            </div>
+            <p>Komunitas ini hadir untuk siapapun kamu yang bergabung dan dibimbing #Sampaijadibisa.</p>
+            <div class="card-content">
+              <p>Keunggulan Komunitas</p>
+              <ul>
+                <li><i class="fas fa-bullhorn"></i> Komunitas ini hadir untuk kamu yang telah menyelesaikan pelatihan prakerja dan event ISW.</li>
+                <li><i class="fas fa-calendar"></i> Informasi umum tentang event LS atau DPxPrakerja</li>
+              </ul>
+              <button class="card-button">Gabung Sekarang</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
