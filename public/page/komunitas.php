@@ -61,7 +61,7 @@
       <div class="headline-description">
         <p>Tempat bagi SobatLS mendalami Luarsekolah, berinteraksi, dan berdiskusi. Mari bersama memberdayakan dan menciptakan perubahan positif. #Sampaijadibisa</p>
       </div>
-      <button>Gabung Sekarang</button>
+      <button id="join-button-1">Gabung Sekarang</button>
     </div>
     <div class="section-1-image">
       <img src="../images/headline_img.png" alt="headline_img">
@@ -201,7 +201,7 @@
     </div>
   </section>
 
-  <section class="section-3b">
+  <section class="section-3b" id="section-bergabung">
     <div class="community-container">
       <h1 class="community-title">Mari Bergabung Bersama Komunitas Luarsekolah</h1>
       <div class="community-cards">

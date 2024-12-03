@@ -610,6 +610,7 @@ nav {
   border-radius: 10px;
   overflow: hidden;
   margin-top: 60px;
+  background-color: #fff;
 }
 
 .accordion-item {
