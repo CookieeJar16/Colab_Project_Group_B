@@ -225,7 +225,7 @@
                 <li><i class="fas fa-calendar"></i> Informasi mengenai event LuarSekolah</li>
                 <li><i class="fas fa-gift"></i> Gift away voucher kelas gratis</li>
               </ul>
-              <button class="card-button">Gabung Sekarang</button>
+              <button class="card-button" onclick="window.open('https://t.me/+FHnsDdl9V7w2MWJl', '_blank')">Gabung Sekarang</button>
             </div>
           </div>
         </div>
@@ -254,7 +254,7 @@
                 <li><i class="fas fa-people-group"></i> Membangun koneksi antar mitra alumni</li>
                 <li><i class="fas fa-comments"></i> Diskusi terkait sukses story alumni belajar bekerja</li>
               </ul>
-              <button class="card-button">Gabung Sekarang</button>
+              <button class="card-button" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeiH5YAFJz7PXi-Y0pk78VCtpQ0iiGTw5glT_kkle6juBJcPA/viewform', '_blank')">Gabung Sekarang</button>
             </div>
           </div>
         </div>
@@ -277,7 +277,7 @@
                 <li><i class="fas fa-bullhorn"></i> Komunitas ini hadir untuk kamu yang telah menyelesaikan pelatihan prakerja dan event ISW.</li>
                 <li><i class="fas fa-calendar"></i> Informasi umum tentang event LS atau DPxPrakerja</li>
               </ul>
-              <button class="card-button">Gabung Sekarang</button>
+              <button class="card-button" onclick="window.open('https://t.me/+bVzEerukGJs4N2Zl', '_blank')">Gabung Sekarang</button>
             </div>
           </div>
         </div>
