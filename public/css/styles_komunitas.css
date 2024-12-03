@@ -149,6 +149,7 @@ nav {
   align-items: center;
   height: 15vh;
   margin: 0;
+  padding: 20px;
   background-color: #F7F7F7;
 }
 
@@ -170,7 +171,7 @@ nav {
 .stat p {
   font-size: 1.5em;
   margin: 0;
-  color: #138E6F;
+  color: #1BC89D;
   font-weight: 600;
 }
 
@@ -255,6 +256,12 @@ nav {
 
 #image2, #image4 {
   transform: rotate(10deg);
+}
+
+#image1:hover, #image2:hover, #image3:hover, #image4:hover {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 30px #FFC645;
 }
 
 /* SECTION 4 */
@@ -387,7 +394,7 @@ nav {
 .community-card-wrapper {
   position: relative;
   width: 320px; /* Initial width */
-  height: 440px; /* Fixed height */
+  height: 500px; /* Fixed height */
   overflow: hidden;
   border-radius: 24px;
   transition: width 0.4s ease;
@@ -430,7 +437,8 @@ nav {
   top: 0;
   left: 0;
   width: 800px;
-  height: 440px;
+  height: auto;
+  min-height: 440px;
   border-radius: 24px;
   padding: 24px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -443,6 +451,7 @@ nav {
   transition: opacity 0.3s ease, transform 0.3s ease;
   z-index: 1;
   flex: 0 0 auto;
+  opacity: 0;
 }
 
 .community-card-hover p {
@@ -467,41 +476,53 @@ nav {
 }
 
 .card-1 {
-  background-image: url('../images/left-card-img.png');
+  background-image: url('./img/left-card-img.png');
   background-repeat:no-repeat;
 }
 
 .card-2 {
-  background-image: url('../images/middle-card-img.png');
+  background-image: url('./img/middle-card-img.png');
   background-repeat:no-repeat;
 }
 
 .card-3 {
-  background-image: url('../images/right-card-img.png');
+  background-image: url('./img/right-card-img.png');
   background-repeat:no-repeat;
 }
 
 .card-1-hover {
-  background-image: url('../images/left_card_full.png');
+  background-image: url('./img/left_card_full.png');
   background-repeat:no-repeat;
 }
 
-.card-2-hover { 
-  background-image: url('../images/middle_card_full.png');
+.card-2-hover {
+  background-image: url('./img/mid_card_full.png');
   background-repeat:no-repeat;
 }
 
 .card-3-hover {
-  background-image: url('../images/right_card_full.png');
+  background-image: url('./img/right_card_full.png');
   background-repeat:no-repeat;
 }
 
+.heading-container{
+  background-color: #fff;
+  border-radius: 12px;
+  padding-left: 10px;
+}
+
+.heading-card{
+  background-color: #fff;
+  border-radius: 12px;
+  padding-left: 10px;
+}
+
 .card-heading {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
   color: #000;
   display: flex;
-  padding-bottom: 8px; 
+  margin-bottom: 10px;
   line-height: 1.2; 
 }
 
@@ -514,6 +535,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 200px;
+  text-align: start;
 }
 
 .card-content {

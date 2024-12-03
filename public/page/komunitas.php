@@ -208,7 +208,9 @@
         <!-- Card 1 -->
         <div class="community-card-wrapper">
           <div class="community-card card-1">
-            <h3 class="card-subheading">Sobat LS</h3>
+            <div class="heading-container">
+              <h2 class="card-subheading">Sobat LS</h3>
+            </div>
           </div>
           <!-- Card 1 Hover -->
           <div class="community-card-hover card-1-hover">
@@ -230,7 +232,9 @@
         <!-- Card 2 -->
         <div class="community-card-wrapper">
           <div class="community-card card-2">
-            <h2 class="card-subheading">Alumni Belajar Bekerja</h3>
+            <div class="heading-container">
+              <h2 class="card-subheading">Alumni Belajar Bekerja</h3>
+            </div>
           </div>
           <!-- Card 2 Hover -->
           <div class="community-card-hover card-2-hover">
@@ -246,7 +250,9 @@
                 <li><i class="fas fa-folder-closed"></i> Pemetaan minat dan topik</li>
                 <li><i class="fas fa-satellite-dish"></i> Layanan Job Connector</li>
                 <li><i class="fas fa-briefcase"></i> Informasi Lowongan kerja sesuai program belajar</li>
+                <li><i class="fas fa-id-card"></i>Layanan Bimbingan karir</li>
                 <li><i class="fas fa-people-group"></i> Membangun koneksi antar mitra alumni</li>
+                <li><i class="fas fa-comments"></i> Diskusi terkait sukses story alumni belajar bekerja</li>
               </ul>
               <button class="card-button">Gabung Sekarang</button>
             </div>
@@ -255,7 +261,9 @@
         <!-- Card 3 -->
         <div class="community-card-wrapper">
           <div class="community-card card-3">
-            <h2 class="card-subheading">Alumni Prakerja dan ISW</h3>
+            <div class="heading-container">
+              <h2 class="card-subheading">Alumni Prakerja dan ISW</h3>
+            </div>
           </div>
           <!-- Card 3 Hover -->
           <div class="community-card-hover card-3-hover">
