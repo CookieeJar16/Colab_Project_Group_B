@@ -476,32 +476,32 @@ nav {
 }
 
 .card-1 {
-  background-image: url('./img/left-card-img.png');
+  background-image: url('../images/left-card-img.png');
   background-repeat:no-repeat;
 }
 
 .card-2 {
-  background-image: url('./img/middle-card-img.png');
+  background-image: url('../images/middle-card-img.png');
   background-repeat:no-repeat;
 }
 
 .card-3 {
-  background-image: url('./img/right-card-img.png');
+  background-image: url('../images/right-card-img.png');
   background-repeat:no-repeat;
 }
 
 .card-1-hover {
-  background-image: url('./img/left_card_full.png');
+  background-image: url('../images/left_card_full.png');
   background-repeat:no-repeat;
 }
 
 .card-2-hover {
-  background-image: url('./img/mid_card_full.png');
+  background-image: url('../images/mid_card_full.png');
   background-repeat:no-repeat;
 }
 
 .card-3-hover {
-  background-image: url('./img/right_card_full.png');
+  background-image: url('../images/right_card_full.png');
   background-repeat:no-repeat;
 }
 
