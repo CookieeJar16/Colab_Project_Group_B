@@ -102,61 +102,61 @@
               <div class="card">
                   <img src="../images/card5.png" alt="Promo 4" class="card-img">
                   <div class="card-content">
-                      <p>Gunakan kode promo untuk project-based internship</p>
+                      <p>Klaim total hadiah hingga 300 juta dengan Super Learning Week</p>
                   </div>
               </div>
               <div class="card">
                   <img src="../images/card6.png" alt="Promo 5" class="card-img">
                   <div class="card-content">
-                      <p>Gunakan kode promo untuk project-based internship</p>
+                      <p>Gunakan dan ulas aplikasi ini, siapa cepat dia dapat!</p>
                   </div>
               </div>
               <div class="card">
                   <img src="../images/card7.png" alt="Promo 6" class="card-img">
                   <div class="card-content">
-                      <p>Gunakan kode promo untuk project-based internship</p>
+                      <p>Dapatkan E-Wallet senilai Rp 200.000</p>
                   </div>
               </div>
               <div class="card">
                   <img src="../images/card8.png" alt="Promo 7" class="card-img">
                   <div class="card-content">
-                      <p>Gunakan kode promo untuk project-based internship</p>
+                      <p>Dapatkan hadiah senilai Rp 100rb tanpa diundi</p>
                   </div>
               </div>
               <div class="card">
                   <img src="../images/card9.png" alt="Promo 8" class="card-img">
                   <div class="card-content">
-                      <p>Gunakan kode promo untuk project-based internship</p>
+                      <p>Dengan berkurban bisa dapat 5 ekor kambing</p>
                   </div>
               </div>
               <div class="card">
                   <img src="../images/card10.png" alt="Promo 9" class="card-img">
                   <div class="card-content">
-                      <p>Gunakan kode promo untuk project-based internship</p>
+                      <p>Luarsekolah x Prakerja lagi bagi-bagi THR nih, buruan ikutan!</p>
                   </div>
               </div>
               <div class="card">
                   <img src="../images/card11.png" alt="Promo 10" class="card-img">
                   <div class="card-content">
-                      <p>Gunakan kode promo untuk project-based internship</p>
+                      <p>Ambil Kesempatan THR di Hari Raya Lebaran ini </p>
                   </div>
               </div>
               <div class="card">
                   <img src="../images/card12.png" alt="Promo 11" class="card-img">
                   <div class="card-content">
-                      <p>Gunakan kode promo untuk project-based internship</p>
+                      <p>Luarsekolah x Prakerja lagi ada Gebyar koin LS nih, hadiah 930 Juta</p>
                   </div>
               </div>
               <div class="card">
                   <img src="../images/card13.png" alt="Promo 12" class="card-img">
                   <div class="card-content">
-                      <p>Gunakan kode promo untuk project-based internship</p>
+                      <p>Ls modalin, buruan segera buat video terbaik kamu!</p>
                   </div>
               </div>
               <div class="card">
                   <img src="../images/card14.png" alt="Promo 13" class="card-img">
                   <div class="card-content">
-                      <p>Gunakan kode promo untuk project-based internship</p>
+                      <p>Banyak keseruan yang ada di Luarsekolah, buruan ikutan segera!</p>
                   </div>
               </div>
           </div>
