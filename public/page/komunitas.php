@@ -363,11 +363,11 @@
             <!-- Bagian tengah: Link utama -->
             <div class="footer-center">
                 <ul>
-                    <li><a href="https://www.luarsekolah.com/tentang-kami">Tentang Kami</a></li>
-                    <li><a href="https://www.luarsekolah.com/article">blog</a></li>
-                    <li><a href="https://www.luarsekolah.com/promo">promo</a></li>
-                    <li><a href="https://www.luarsekolah.com/bantuan">bantuan</a></li>
-                    <li><a href="#">Komunitas</a></li>
+                  <li><a href="https://www.luarsekolah.com/tentang-kami">Tentang Kami</a></li>
+                  <li><a href="https://www.luarsekolah.com/article">Blog</a></li>
+                  <li><a href="page/promo.php">Promo</a></li>
+                  <li><a href="https://www.luarsekolah.com/bantuan">Bantuan</a></li>
+                  <li><a href="#">Komunitas</a></li>
                 </ul>
             </div>
     
