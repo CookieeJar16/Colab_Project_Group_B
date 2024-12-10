@@ -29,13 +29,13 @@
 <body>
 
 <nav>
-    <div class="nav-container">
-    <img src="../images/logo.png" alt="Logo" class="nav-logo">
+<div class="nav-container">
+        <a href="../index.php"><img src="../images/LS-logo-2nd-master.png" alt="Logo" class="nav-logo"></a>
         <ul class="nav-menu">
+            <li><a href="#alumni">Tentang Kita</a></li>
             <li><a href="#programs">Program</a></li>
-            <li><a href="#benefitsmagang">Why LuarSekolah</a></li>
-            <li><a href="page/komunitas.php">Community</a></li>
-            <li><a href="#alumni">About US</a></li>
+            <li><a href="komunitas.php">Komunitas</a></li>
+            <li><a href="promo.php">Promo</a></li>
             <?php if (isset($_SESSION['username'])):?>
                     <li><span>Hello, <?php echo $_SESSION['nama']; ?></span></li>
                 </ul>
@@ -43,10 +43,10 @@
                     Logout <span class="arrow">→</span>
                 </a>
             <?php else: ?>
-                    <li><a href="login.php">Login</a></li>
                 </ul>
+                <a href="login.php" class="btn-login">Masuk</a>
                 <a href="registrasi.php" class="btn-register">
-                    Register <span class="arrow">→</span>
+                    Daftar
                 </a>
             <?php endif; ?>
     </div>            
@@ -133,13 +133,10 @@
   <div class="review-container">
         <h2>Cerita Alumni, Inspirasi Kami</h2>
         <p class="paragraf">Kami Sangat Terinspirasi oleh dukungan luar biasa dari Komunitas LuarSekolah yang hebat dan kreatif dan memotivasi kami setiap hari. ingin menjadi bagian dari kami?</p>
-        <div id="star-container">
-            <?php for ($i = 1; $i <= 5; $i++): ?>
-                <span class="star" data-rating="<?php echo $i; ?>"><?php echo "&#9733;"; ?></span>
-            <?php endfor; ?>
-        </div>
 
-        <h3 align="center">Ulasan untuk Rating <?php echo htmlspecialchars($rating); ?> Bintang</h3>
+        <div class="section-1-content">
+            <button id="join-button-1" style="margin-left: 560px; margin-top: 20px; margin-bottom: 35px;">Gabung Sekarang</button>
+        </div>
         <div class="review-box">
             <div class="review-up">
                 <?php
@@ -352,38 +349,45 @@
     </div>
   </section>
 
-  <footer>
-        <div class="footer-container">
-            <!-- Bagian kiri: Logo dan deskripsi -->
-            <div class="footer-left">
-                <img src="../images/logo.png" alt="Luar Sekolah Logo" class="footer-logo">
-                <p>Luar Sekolah merupakan wadah belajar dan mengajar pelajaran non-formal / alternatif dengan cara menyediakan kelas pengajaran dalam bentuk online dan offline.</p>
-            </div>
-    
-            <!-- Bagian tengah: Link utama -->
-            <div class="footer-center">
-                <ul>
-                  <li><a href="https://www.luarsekolah.com/tentang-kami">Tentang Kami</a></li>
-                  <li><a href="https://www.luarsekolah.com/article">Blog</a></li>
-                  <li><a href="page/promo.php">Promo</a></li>
-                  <li><a href="https://www.luarsekolah.com/bantuan">Bantuan</a></li>
-                  <li><a href="#">Komunitas</a></li>
-                </ul>
-            </div>
-    
-            <!-- Bagian kanan: Link tambahan -->
-            <div class="footer-right">
-                <ul>
-                    <li><a href="https://magang.luarsekolah.com/">Luar Sekolah Magang+</a></li>
-                    <li><a href="https://www.luarsekolah.com/#">Ajukan Penawaran</a></li>
-                    <li><a href="https://www.luarsekolah.com/pages#terms-of-use">Syarat & Ketentuan</a></li>
-                    <li><a href="https://www.luarsekolah.com/pages#privacy-policy">Kebijakan Privasi</a></li>
-                </ul>
-
-                <a href="https://play.google.com/store/apps/details?id=com.luarsekolah.mobile" target="_blank"> <img src="https://file.luarsekolah.com/assets/images/google-play-badge.png" style="width:200px" alt="imgplaygplay" loading="lazy"></a>
-            </div>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-description">
+        <img src="../images/LS-logo-2nd-master.png" alt="Logo Luarsekolah" class="footer-logo">
+        <p>Luarsekolah merupakan wadah belajar dan mengajar pelajaran non-formal / alternatif dengan cara menyediakan kelas pengajaran dalam bentuk online dan offline.</p>
+        <div class="footer-social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
         </div>
-    </footer>
+      </div>
+
+      <!-- Links -->
+      <div class="footer-links">
+        <ul>
+          <li><a href="https://www.luarsekolah.com/tentang-kami">Tentang Kami</a></li>
+          <li><a href="page/promo.php">Promo</a></li>
+          <li><a href="page/komunitas.php">Komunitas</a></li>
+          <li><a href="#">Bantuan</a></li>
+          <li><a href="https://www.luarsekolah.com/article">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Luarsekolah Magang+</a></li>
+          <li><a href="#">Ajukan Penawaran</a></li>
+          <li><a href="#">Syarat dan Ketentuan</a></li>
+          <li><a href="#">Kebijakan Privasi</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p>PT Teknologi Edukasi Indonesia | Copyright ©2022 • All Rights Reserved</p>
+    </div>
+  </footer>
 
     </body>
     <script>

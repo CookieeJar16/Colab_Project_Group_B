@@ -1,4 +1,4 @@
-  <?php 
+<?php 
     include 'config/config.php';
     include('page/navbar.php'); 
 
@@ -153,16 +153,13 @@
   <h2 class="video-alumni-heading">Interesting Stories from Our Alumni</h2>
   <div class="video-alumni-container">
     <div class="video-alumni-item">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/anrttM9SpGU?si=5ElpMoZ0l9804dAF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <p class="video-description">"Testimoni Alumni 1: Cerita sukses dari program magang di Luar Sekolah."</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TYpDBmYbick?si=KJnmHBrpa7xsCNof" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      <p class="video-description">"Testimoni Alumni 1: Cerita sukses dari program magang di Luar Sekolah."</p>
     </div>
     <div class="video-alumni-item">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/anrttM9SpGU?si=5ElpMoZ0l9804dAF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <p class="video-description">"Testimoni Alumni 2: Bagaimana program ini mengubah karier saya."</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hAszW1TxMAo?si=nHmxMZNofCzWAzbj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      <p class="video-description">"Testimoni Alumni 2: Bagaimana program ini mengubah karier saya."</p>
     </div>
     <div class="video-alumni-item">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/anrttM9SpGU?si=5ElpMoZ0l9804dAF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <p class="video-description">"Testimoni Alumni 3: Pengalaman belajar skill standar industri."</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hIZDF0LhzeU?si=Jfs-RnZgVOnQyma_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      <p class="video-description">"Testimoni Alumni 3: Pengalaman belajar skill standar industri."</p>
     </div>
   </div>
 </section>
@@ -175,28 +172,75 @@
   </div>
 </section>
 
-<section id="faq" class="faq-section">
-<h2 class="faq-heading">FAQ</h2>
-  <h2 class="faq-title">Bagaimana jam kerja magang di Luar Sekolah?</h2>
-  <p class="faq-answer">Jam Kerja untuk peserta magang adalah jam 08.00 - 17.00 WIB namun jam kerja tetap fleksibel dan bisa disesuaikan.</p>
-
-  <h2 class="faq-title">Apakah skema ke lulusan dan syarat untuk mendapatkan sertifikat?</h2>
-  <p class="faq-answer">Peserta akan dianggap lulus apabila tidak melebihi jumlah absensi, sebagai berikut:</p>
-  <ul class="faq-list">
-    <li>Durasi 1 bulan : 1 kali tidak mengerjakan tugas & tidak menghadiri mentoring tanpa alasan yang jelas</li>
-    <li>Durasi 2 bulan : 2 kali tidak mengerjakan tugas & tidak menghadiri mentoring tanpa alasan yang jelas</li>
-    <li>Durasi 3 bulan : 2 kali tidak mengerjakan tugas & menghadiri mentoring tanpa alasan yang jelas</li>
-  </ul>
-
-  <h2 class="faq-title">Apakah program magang ini hanya bersifat WFH?</h2>
-  <p class="faq-answer">Utamanya bersifat WFH namun diperbolehkan untuk bekerja langsung di kantor Luar Sekolah.</p>
-
-  <h2 class="faq-title">Dimana sertifikat & transkrip dapat di-download?</h2>
-  <p class="faq-answer">Peserta dapat men-download sertifikat penyelesaian dan transkrip nilai di menu <strong>Sertifikat</strong> pada Dashboard.</p>
-
-  <h2 class="faq-title">Apakah terdapat grup diskusi seperti WhatsApp, Discord atau media sosial lainnya?</h2>
-  <p class="faq-answer">Untuk memudahkan komunikasi, diskusi dan hubungan yang terjalin baik, kami akan menyediakan grup Discord atau WhatsApp untuk setiap program yang dipilih.</p>
-</section>
+<section class="faq-section">
+    <div class="faq-container">
+      <div class="faq-title">
+        <h1>FAQ: Tentang Komunitas</h1>
+      </div>
+      <div class="faq-details">
+        <p>Mari kenali lebih dekat komunitas kami! Berikut beberapa pertanyaan yang sering diajukan beserta jawabannya</p>
+      </div>
+      <div class="faq-accordion">
+        <div class="accordion-item">
+          <button class="accordion-button">
+            Apa saja kegiatan yang dilakukan di komunitas ini?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>Kami rutin mengadapan berbagai kegiatan, seperti diskusi mingguan, workshop, hingga program sosial untuk memberikan manfaat bagi anggota dan masyarakat sekitar.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-button">
+            Siapa saja yang dapat bergabung dengan komunitas ini?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-button">
+            Bagaimana cara bergabung dengan komunitas ini?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-button">
+            Apa ada biaya keanggotaan?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-button">
+            Apa manfaat yang didapatkan sebagai anggota komunitas ini?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+// Fungsi untuk menghilangkan notifikasi setelah beberapa detik
+window.onload = function() {
+    var notification = document.getElementById("floating-notification");
+    if (notification) {
+        // Set waktu berapa detik notifikasi muncul (misalnya 3 detik)
+        setTimeout(function() {
+            notification.classList.add("hidden"); // Menambahkan kelas "hidden" untuk menyembunyikan
+        }, 3000); // 3000ms = 3 detik
+    }
+};
+</script>
 
 
     <?php include('page/footer.php'); ?>

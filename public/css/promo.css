@@ -55,16 +55,31 @@ nav {
   border-radius: 16px; /* Sudut melengkung */
 }
 
+.btn-login{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #00CC99; /* Warna latar belakang tombol */
+  color: #000; /* Warna teks */
+  font-size: 16px; /* Ukuran font */
+  padding: 8px 20px;
+  border-radius: 8px; /* Sudut melengkung */
+  text-decoration: none; /* Hilangkan garis bawah */
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
 /* Gaya untuk tombol register */
 .btn-register {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #2d3436; /* Warna latar belakang tombol */
+  background-color: #00CC99; /* Warna latar belakang tombol */
   color: white; /* Warna teks */
   font-size: 16px; /* Ukuran font */
   padding: 8px 20px;
-  border-radius: 25px; /* Sudut melengkung */
+  border-radius: 8px; /* Sudut melengkung */
   text-decoration: none; /* Hilangkan garis bawah */
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -355,73 +370,89 @@ nav {
 
 
 /* FOOTER */
-footer {
-  background-color: #fff; /* Warna latar belakang putih */
-  color: #000; /* Warna teks hitam */
-  padding: 40px 20px; /* Padding atas-bawah dan kiri-kanan */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+.footer {
+  background-color: #eaf8f7;
+  padding: 20px 0;
 }
 
 .footer-container {
-  display: flex; /* Tata letak fleksibel */
-  justify-content: space-between; /* Sebar elemen */
-  align-items: flex-start; /* Posisi elemen di atas */
-  max-width: 1200px; /* Lebar maksimum kontainer */
-  margin: 0 auto; /* Pusatkan kontainer */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
-/* Bagian kiri: Logo dan deskripsi */
-.footer-left {
-  max-width: 400px;
+.footer-description {
+  flex: 1;
+  max-width: 600px;
 }
 
 .footer-logo {
-  max-height: 80px; /* Tinggi maksimum logo */
-  width: auto; /* Jaga proporsi gambar */
-  margin-bottom: 20px; /* Jarak bawah logo */
+  width: 150px;
+  margin-bottom: 10px;
 }
 
-.footer-left p {
-  font-size: 14px; /* Ukuran font deskripsi */
-  color: #333; /* Warna teks */
-  line-height: 1.6; /* Jarak antar baris */
-  margin-bottom: 20px;
+.footer-description p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
 }
 
-.footer-social a {
-  text-decoration: none; /* Hilangkan garis bawah */
-  color: #333; /* Warna ikon sosial */
-  font-size: 20px; /* Ukuran ikon */
-  margin-right: 15px; /* Jarak antar ikon */
+.footer-social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
   transition: color 0.3s;
 }
 
-.footer-social a:hover {
-  color: #00bcd4; /* Warna saat hover */
+.social-icon:hover {
+  color: #0077b5; /* Ganti dengan warna yang diinginkan */
 }
 
-/* Bagian tengah dan kanan: Link */
-.footer-center ul,
-.footer-right ul {
-  list-style: none; /* Hilangkan bullet */
+/* Footer Links */
+.footer-links {
+  flex: 1;
+  max-width: 150px;
+}
+
+.footer-links ul {
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer-center ul li,
-.footer-right ul li {
-  margin-bottom: 10px; /* Jarak antar item */
+.footer-links li {
+  margin-bottom: 10px;
 }
 
-.footer-center ul li a,
-.footer-right ul li a {
-  text-decoration: none; /* Hilangkan garis bawah */
-  color: #333; /* Warna teks */
-  font-size: 14px; /* Ukuran teks */
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
   transition: color 0.3s;
 }
 
-.footer-center ul li a:hover,
-.footer-right ul li a:hover {
-  color: #00bcd4; /* Warna saat hover */
+.footer-links a:hover {
+  color: #0077b5; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #333;
 }
